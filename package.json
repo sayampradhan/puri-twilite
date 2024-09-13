@@ -4,7 +4,7 @@
   "description": "A theme inspired by Puri Jagannath's vibrant color palette.",
   "version": "0.0.3",
   "publisher": "Sayam",
-  "icon": "resources/logo.jpg",
+  "icon": "resources/logo.png",
   "engines": {
     "vscode": "^0.10.5"
   },
