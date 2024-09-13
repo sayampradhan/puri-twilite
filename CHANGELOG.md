@@ -6,5 +6,7 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Released
 
-- 0.0.1 : Initial release
-- 0.0.2 : Added logo image
+- v0.0.1 : Initial release
+
+## Fixed
+- v0.0.2 : Added logo image
