@@ -4,8 +4,7 @@ All notable changes to the "puri-twilite" extension will be documented in this f
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## Released
 
 - 0.0.1 : Initial release
 - 0.0.2 : Added logo image
-- 0.0.3 : Modified logo image
