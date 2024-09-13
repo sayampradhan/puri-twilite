@@ -1,0 +1,300 @@
+{
+  "name": "Puri Twilite",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#240702",  // Deep aubergine for a richer contrast
+    "editor.foreground": "#FFFFFF",  // White for clarity
+    "editor.selectionBackground": "#661f13aa",  // Warm, inviting coral
+    "editor.lineHighlightBackground": "#FF7E6733",  // Gentle highlight tone
+    "editorCursor.foreground": "#D87D71",  // Softer reddish-brown for the cursor
+    "editorIndentGuide.background": "#7C4D34",  // Earthy tone for subtlety
+    "editorIndentGuide.activeBackground": "#D87D71",  // Warm reddish-brown active guide
+    "editorGutter.background": "#3D0A02",  // Darker terracotta for contrast
+
+    "activityBar.background": "#47211A",  // Rich warm background
+    "activityBar.dropBorder": "#47211A",  // Dark reddish-brown for drop border
+    "activityBar.foreground": "#FFFFFF",  // White for text
+    "activityBar.inactiveForeground": "#FFFFFF",  // White text for inactive items
+    "activityBar.border": "#000000",  // Dark reddish-brown border
+    "activityBarBadge.background": "#7A3D22",  // Darker coral for badge
+    "activityBarBadge.foreground": "#FFFFFF",  // Clean, simple white text
+    "activityBar.activeBorder": "#D87D71",  // Reddish-brown focus border
+
+    "sideBar.background": "#47211A",  // Dark reddish-brown for sideBar
+    "sideBar.foreground": "#FFFFFF",  // White text
+    "sideBar.border": "#000000",  // Dark reddish-brown border
+    "sideBarTitle.foreground": "#FFFFFF",  // White title
+    "sideBarSectionHeader.background": "#47211A",  // Consistent with activityBar
+    "sideBarSectionHeader.foreground": "#FFFFFF",  // White header
+
+    "statusBar.background": "#47211A",  // Matching activityBar for consistency
+    "statusBar.foreground": "#FFFFFF",  // White text
+    "statusBar.border": "#000000",  // Dark reddish-brown border
+    "statusBar.noFolderBackground": "#5C2B1E",  // Deep brown for unfocused state
+    "statusBar.debuggingBackground": "#47211A",  // Dark reddish-brown for debugging
+    "statusBar.debuggingForeground": "#FFFFFF",  // White text for debugging mode
+
+    "titleBar.activeBackground": "#47211A",  // Warm, grounded background
+    "titleBar.activeForeground": "#FFFFFF",  // White for active titles
+    "titleBar.inactiveBackground": "#5C2B1E",  // Deep brown for inactive
+    "titleBar.inactiveForeground": "#FFFFFF",  // White for inactive text
+    "titleBar.border": "#000000",  // Dark reddish-brown border for distinction
+
+    "tab.activeBackground": "#421908",  // Consistent warm background
+    "tab.inactiveBackground": "#5C2B1E",  // Deep brown for inactive
+    "tab.activeForeground": "#FFFFFF",  // White for active tab text
+    "tab.inactiveForeground": "#FFFFFF",  // White text for inactive tabs
+    "tab.hoverBackground": "#47211A",  // Dark reddish-brown hover effect
+    "tab.border": "#000000",  // Subtle reddish-brown border for tabs
+
+    "button.background": "#7A3D22",  // Darker coral for buttons
+    "button.foreground": "#FFFFFF",  // Clean white text
+    "button.hoverBackground": "#47211A",  // Dark reddish-brown glow on hover
+
+    "dropdown.background": "#5C2B1E",  // Deep brown for dropdowns
+    "dropdown.foreground": "#FFFFFF",  // White text
+    "dropdown.border": "#000000",  // Dark reddish-brown border for dropdowns
+
+    "scrollbarSlider.background": "#47211AAA",  // Dark reddish-brown for the slider
+    "scrollbarSlider.hoverBackground": "#47211ADD",  // Enhanced warmth on hover
+    "scrollbarSlider.activeBackground": "#47211AFF",  // Brighter reddish-brown for active state
+
+    "terminal.foreground": "#FFFFFF",  // White text for terminal
+    "terminal.ansiBlack": "#5C2B1E",  // Deep brown for ANSI black
+    "terminal.ansiBlue": "#00AFFF",  // Soft azure for the blue
+    "terminal.ansiCyan": "#00E0E0",  // Calm, soothing cyan
+    "terminal.ansiGreen": "#42D97C",  // Soft green for terminal
+    "terminal.ansiMagenta": "#FF7E67",  // Consistent coral for magenta
+    "terminal.ansiRed": "#FF7E67",  // Same as magenta for harmony
+    "terminal.ansiWhite": "#FFFFFF",  // White for ANSI white
+    "terminal.ansiYellow": "#FFCC00"  // Bright yellow instead of dark brown
+  },
+  "tokenColors": [
+    {
+      "scope": "emphasis",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "strong",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "meta.diff.header",
+      "settings": {
+        "foreground": "#9B4212"
+      }
+    },
+    {
+      "scope": "comment",
+      "settings": {
+        "foreground": "#943002"  // Warmer brown for comments
+      }
+    },
+    {
+      "scope": "constant.language",
+      "settings": {
+        "foreground": "#FFD54F"  // Consistent with general constants
+      }
+    },
+    {
+      "scope": [
+        "constant.numeric",
+        "constant.other.color.rgb-value",
+        "constant.other.rgb-value",
+        "support.constant.color"
+      ],
+      "settings": {
+        "foreground": "#FFCC00"  // Slightly different shade for better distinction
+      }
+    },
+    {
+      "scope": "constant.regexp",
+      "settings": {
+        "foreground": "#FF6347"  // Consistent with other constants for regex
+      }
+    },
+    {
+      "scope": "entity.name.tag",
+      "settings": {
+        "foreground": "#FF6347"  // Unified color for tag names
+      }
+    },
+    {
+      "scope": "entity.name.tag.css",
+      "settings": {
+        "foreground": "#FF6347"  // Consistent with general tag names
+      }
+    },
+    {
+      "scope": "entity.other.attribute-name",
+      "settings": {
+        "foreground": "#FFA500"  // Uniform color for attribute names
+      }
+    },
+    {
+      "scope": [
+        "source.css entity.other.attribute-name",
+        "source.css.less entity.other.attribute-name.id",
+        "source.scss entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#FFA500"  // Same as above for CSS attributes
+      }
+    },
+    {
+      "scope": "invalid",
+      "settings": {
+        "foreground": "#FF4500"  // Consistent with error indication
+      }
+    },
+    {
+      "scope": "markup.underline",
+      "settings": {
+        "fontStyle": "underline"
+      }
+    },
+    {
+      "scope": "markup.bold",
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "markup.heading",
+      "settings": {
+        "foreground": "#FFD700"  // Highlight for headings
+      }
+    },
+    {
+      "scope": "markup.italic",
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "scope": "markup.inserted",
+      "settings": {
+        "foreground": "#7CFC00"  // Different color for inserted text
+      }
+    },
+    {
+      "scope": "markup.deleted",
+      "settings": {
+        "foreground": "#FF4500"  // Consistent with invalid text for deletions
+      }
+    },
+    {
+      "scope": "markup.changed",
+      "settings": {
+        "foreground": "#FFD700"  // Consistent with other changes
+      }
+    },
+    {
+      "scope": "meta.selector",
+      "settings": {
+        "foreground": "#FFD54F"  // Consistent with meta tags
+      }
+    },
+    {
+      "name": "brackets of XML/HTML tags",
+      "scope": ["punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#FF6347"  // Consistent with tag names
+      }
+    },
+    {
+      "scope": "meta.preprocessor",
+      "settings": {
+        "foreground": "#FFD700"  // Consistent with preprocessor directives
+      }
+    },
+    {
+      "scope": "meta.preprocessor.string",
+      "settings": {
+        "foreground": "#FF6347"  // Consistent with string constants
+      }
+    },
+    {
+      "scope": "meta.tag",
+      "settings": {
+        "foreground": "#FF6347"  // Tag names are consistent with the theme
+      }
+    },
+    {
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#FF7F50"  // Harmonized color for language variables
+      }
+    },
+    {
+      "scope": "variable.other",
+      "settings": {
+        "foreground": "#FFA07A"  // Softer color for other variables
+      }
+    },
+    {
+      "scope": "variable.parameter",
+      "settings": {
+        "foreground": "#FF4500"  // Stronger color for parameters
+      }
+    },
+    {
+      "scope": "variable",
+      "settings": {
+        "foreground": "#FF7F50"  // Consistent with language variables
+      }
+    },
+    {
+      "scope": "variable.other.local",
+      "settings": {
+        "foreground": "#FF8C00"  // Slightly different shade for local variables
+      }
+    },
+    {
+      "scope": "variable.other.global",
+      "settings": {
+        "foreground": "#FF4500"  // Reddish for global variables
+      }
+    },
+    {
+      "scope": "variable.other.local",
+      "settings": {
+        "foreground": "#FF8C00"  // Slightly different color for local variables
+      }
+    },
+    {
+      "scope": "variable.other.global",
+      "settings": {
+        "foreground": "#FF4500"  // Reddish for global variables
+      }
+    },
+    {
+      "scope": "function",
+      "settings": {
+        "foreground": "#FFD700"  // Highlighted color for function names
+      }
+    },
+    {
+      "scope": "function.parameter",
+      "settings": {
+        "foreground": "#FF4500"  // Stronger color for function parameters
+      }
+    },
+    {
+      "scope": "variable.language",
+      "settings": {
+        "foreground": "#FF6347"  // Consistent with function parameters
+      }
+    },
+    {
+      "scope": "variable.other",
+      "settings": {
+        "foreground": "#FFA07A"  // Softer color for other variables
+      }
+    }
+  ]
+}
