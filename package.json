@@ -1,0 +1,32 @@
+{
+  "name": "puri-twilite",
+  "displayName": "Puri Twilite",
+  "description": "A theme inspired by Puri Jagannath's vibrant color palette.",
+  "version": "0.0.3",
+  "publisher": "Sayam",
+  "icon": "resources/logo.jpg",
+  "engines": {
+    "vscode": "^0.10.5"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Puri Jagannath",
+        "uiTheme": "vs-dark",
+        "path": "./themes/color-theme.json"
+      }
+    ],
+    "keywords": [
+    "vscode",
+    "theme",
+    "puri",
+    "jagannath",
+    "dark theme"
+  ]
+  },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/sayampradhan/puri-twilite.git"
+  }
+}
