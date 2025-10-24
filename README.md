@@ -1,7 +1,7 @@
 # Puri Twilite
 
 ## A Theme Inspired by Lord Jagannath
-
+![demo](images/puri-twilight-theme.png)
 Welcome to **Puri Twilite**, a Visual Studio Code theme inspired by the vibrant and rich colors associated with Lord Jagannath of Puri, Odisha. This theme embodies the spiritual and cultural essence of Lord Jagannath, providing a visually striking and serene coding environment.
 
 ### About the Theme
